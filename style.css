@@ -10,6 +10,15 @@ html {
   background-position: center;
   height: 100%;
 }
+@media only screen and(max-width:600px){
+  body,html{
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    font-size: 40px;
+  }
+}
 .get-started{
   border-radius: 32px;
   background-color:#aa183c;
